@@ -1,0 +1,133 @@
+.header {
+  width: 100%;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #303030;
+}
+.header__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header__container_side_left {
+  align-items: flex-start;
+  margin-right: 20px;
+}
+.header__container_side_right {
+  /* align-items: flex-end; */
+  margin-left: 20px;
+}
+.header__city-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 60px;
+}
+.header__city-icon {
+  width: 16px;
+  height: 16px;
+}
+.header__city-text {
+  text-align: center;
+  margin: 0 8px;
+  padding-top: 1px;
+}
+.header__city-button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+.header__arrow {
+}
+.header__number-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header__tel-icon {
+  width: 16px;
+  height: 16px;
+}
+.header__number-text {
+  margin: 0 0 0 10px;
+}
+.header__logo {
+  width: 183px;
+  height: 52px;
+}
+
+.header__auth-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 70px;
+}
+.header__login-text {
+  margin: 0;
+}
+.header__login-line {
+  margin: 0 10px;
+}
+.header__register-text {
+  margin: 0;
+}
+.header__icons-box {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header__like-container {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin-right: 32px;
+}
+.header__like-icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  width: 20px;
+  height: 20px;
+}
+.header__like-count {
+  position: absolute;
+  bottom: 8px;
+  left: 14px;
+  background-color: #e46942;
+  border-radius: 50%;
+  width: 19px;
+  height: 19px;
+  z-index: 3;
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__like-number {
+  color: #fff;
+  z-index: 4;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 100%;
+  margin: 0;
+}
+.header__chart {
+  margin-right: 34px;
+  width: 20px;
+  height: 20px;
+}
+.header__bag {
+  width: 20px;
+  height: 20px;
+}
